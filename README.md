@@ -27,6 +27,8 @@ The Cobra HH600 is a marine handheld VHF radio with DSC and ATIS.
  
  Under the LCD you can now see the `MX25L1606E` serial flash memory.
 
+![PXL_20240904_102457847_1700.jpg](PXL_20240904_102457847_1700.jpg)
+
 For readout, the MX25L1606E has to be desoldered.
 
 ## Reading the serial flash
