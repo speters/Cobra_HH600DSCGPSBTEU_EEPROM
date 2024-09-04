@@ -70,3 +70,20 @@ diff -uw t_099999999.ihex t_999999999.ihex
  :10E23000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEE
  :10E24000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDE
 ```
+
+You can spot MMSI @ 0x2219, 0xe219 (5 bytes) in BCD. 
+
+And ATIS callsign (in this case my "DJ5550" (9 211 J (10th in alphabet) 5550)) @ 0x2214, 0xe219.
+
+
+## Resetting MMSI
+
+Whileas MMSI and ATIS callsign can be changed and written back to the memory, I could not find a way to remove/reset this data. I whish I made a memory dump prior to entering the codes.
+
+# Other findings
+
+Device is in "US" mode when no flash device is accessible (removed, GND pin lifted, ...).
+
+Holding PTT+Lock buttons while turning on the device, then releasing them simultanously puts the device into firmware upgrade mode (no protocol known to me, no software found).
+
+Antenna is cheaply made and falls apart on my device. Loudspeaker is too quiet even when volume turned to max. It takes quite a while to get a GPS fix, no backup battery (which might actually be a good thing).
