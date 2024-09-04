@@ -18,6 +18,7 @@ The Cobra HH600 is a marine handheld VHF radio with DSC and ATIS.
  * unsolder 2 wires at upper end of pcb
  * remove solder bridge between shielding of GPS and main PCB
  * pull GPS pcb
+ * remove 2 screws holding main pcb (1 screw on the lower left and 1 screw previously hidden under the GPS pcb)
  * gently lift main pcb and pull down to remove
  * unclip flex cable to keypad
  * bend straight 2 upper holding tabs of tin LCD enclosure
